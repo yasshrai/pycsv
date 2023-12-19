@@ -1,6 +1,6 @@
-# User Authentication System
+# User Authentication System 
 
-This is a simple user authentication system implemented in Python using CSV files for storing user details and databases. The system allows users to create a new username and password, verify their details, create a new database, change password, and perform other operations.
+This is a simple user authentication system implemented in Python using traditional file system specifically csv which stand for Comma sperated values for storing user details and databases. The system allows users to create a new username and password, verify their details, create a new database, change password, and perform other operations.
 
 ## Features
 
