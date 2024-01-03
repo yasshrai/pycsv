@@ -375,6 +375,7 @@ class connect:
 
 
 def HashPassword(password):
+    "return hash value of string or any value"
     try:
         hash_obj = hashlib.sha256((password).encode('utf-8'))
         return hash_obj.hexdigest()
@@ -383,6 +384,7 @@ def HashPassword(password):
 
 
 def VerfiyPassword(password, stored_password):
+    "return True if password match otherwise false"
     try:
         hashed_password = HashPassword(password)
         return hashed_password == stored_password
