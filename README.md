@@ -21,12 +21,10 @@ This is a simple user authentication system implemented in Python using traditio
 
 ```python
 # Import required libraries
-import csv
-import hashlib
-import os
+import datacsv 
 
 # Create an instance of connect class
-user = connect("myuser", "mypassword")
+user = datacsv.connect("myuser", "mypassword")
 
 # Create a new username and password
 user.CreateUsernamePassword("newuser", "newpassword")
